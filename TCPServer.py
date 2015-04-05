@@ -4,7 +4,7 @@ from socket import *
 serverSocket = socket(AF_INET, SOCK_STREAM)
 #Prepare a sever socket
 
-serverPort = 6789
+serverPort = 8970
 
 serverSocket.bind(("",serverPort))
 serverSocket.listen(1)
